@@ -20,5 +20,20 @@
   "background_color": "#5972FF",
   "display": "standalone",
   "scope": "/",
-  "theme_color": "#5972FF"
+  "theme_color": "#5972FF",
+  "description": "Weather forecast information",
+  "screenshots": [
+    {
+      "src": "/images/lee-sayoung3.jpg",
+      "type": "image/jpg",
+      "sizes": "482x812",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/images/robin-hsr.jpg",
+      "type": "image/jpg",
+      "sizes": "736x736",
+      "form_factor": "wide"
+    }
+  ]
 }
