@@ -3,16 +3,22 @@
   "name": "Test of manifest.json",
   "icons": [
     {
-      "src": "/images/chiikawaa-icon.png",
-      "type": "image/png",
+      "purpose": "maskable",
       "sizes": "192x192",
-      "property": "any"
+      "src": "/images/maskable_icon.png",
+      "type": "image/png"
     },
     {
-      "scr": "/images/chiikawaa-iconPNG.png",
-      "type": "image/png",
+      "purpose": "any",
+      "sizes": "192x192", 
+      "src": "/images/chiikawaa-icon.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "any",
       "sizes": "512x512",
-      "property": "any"
+      "scr": "/images/chiikawaa-iconPNG.png",
+      "type": "image/png"
     }
   ],
   "id": "/pwa-test",
