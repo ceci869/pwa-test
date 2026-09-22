@@ -1,0 +1,22 @@
+{
+  "short_name": "Test",
+  "name": "Test of manifest.json",
+  "icons": [
+    {
+      "src": "/images/chiikawaa-icon.jpg",
+      "type": "image/jpg",
+      "sizes": "192x192"
+    },
+    {
+      "scr": "/images/chiikawaa-icon2.jpg",
+      "type": "image/jpg",
+      "sizes": "512x512"
+    }
+  ],
+  "id": "/?source=pwa",
+  "start_url": "/?source=pwa",
+  "background_color": "#5972FF",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#5972FF"
+}
