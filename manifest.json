@@ -21,7 +21,7 @@
   "display": "standalone",
   "scope": "/",
   "theme_color": "#5972FF",
-  "description": "Weather forecast information",
+  "description": "Pwa Test",
   "screenshots": [
     {
       "src": "/images/lee-sayoung3.jpg",
