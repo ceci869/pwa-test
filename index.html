@@ -9,13 +9,7 @@
       Remove all code in `styles.css`!
     -->
     <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js">
-      console.log('Hello!');
-
-      if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('sw.js');
-      };
-    </script>
+    <link rel="manifest" href="manifest.json">
   </head>
   <body>
     <nav>
@@ -25,5 +19,13 @@
     <main>
       <h1>Home page</h1>
     </main>
+
+    <script type="module" src="script.js">
+      console.log('Hello!');
+
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('sw.js');
+      };
+    </script>
   </body>
 </html>
